@@ -7,8 +7,12 @@
         1. Tipos básicos
             1. Enteros
             2. Reales
+            3. Complejos
+            4. Operadores
         2. Strings
+            1. Operadores
         3. Bytes / bytearray
+            1. Operadores
         4. None
     3. Colecciones
         1. Listas
@@ -50,6 +54,8 @@
             3. struct
         2. Clases
             1. Definición
+                1. __init__
+                2. __new__
             2. Atributos
             3. Métodos
             4. Métodos especiales
