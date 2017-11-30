@@ -1,0 +1,50 @@
+1. Introducción
+2. ¿Qué significa interpretado?
+3. Versiones de Python
+4. Tutorial básico
+    1. Hello world
+    2. Variables
+        1. Tipos básicos
+        2. Strings
+        3. Bytes / bytearray
+    3. Colecciones
+        1. Listas
+        2. Tuplas
+        3. Conjuntos
+        4. Diccionarios
+    4. Estructuras de control
+        1. if-elif-else
+        2. while
+        3. for in
+    5. Funciones
+        1. Funciones lambda
+        2. Declaración de funciones
+        3. Tipos de parámetros
+        4. Paso por valor, paso por referencia
+        5. Funciones como variables
+        6. map, filter, reduce, sorted
+    6. List comprenhension
+        1. Listas
+        2. Conjuntos
+        3. Diccionarios
+    7. Entrada/salida
+        1. Entrada por teclado
+        2. Entrada por entrada estandar
+        3. Salida formateada
+        4. Salida por salida de error
+    8. Módulos
+        1. Importar módulos externos
+        2. __init__.py
+        3. __main__.py
+    9. Representación de estructuras
+        1. Módulo collections
+            1. namedtuple
+            2. defaultdict
+            3. struct
+        2. Clases
+            1. Definición
+            2. Atributos
+            3. Métodos
+            4. Métodos especiales
+            5. Herencia
+      
