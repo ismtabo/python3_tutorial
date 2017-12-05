@@ -37,17 +37,20 @@
         2. Listas
         3. Conjuntos
         4. Diccionarios
-        4. Generadores
-    7. Entrada/salida
+    7. Excepciones
+        1. try/except
+        2. try/except/finally
+        3. try/except/else
+    8. Entrada/salida
         1. Entrada por teclado
         2. Entrada por entrada estandar
         3. Salida formateada
         4. Salida por salida de error
-    8. Módulos
+    9. Módulos
         1. Importar módulos externos
         2. __init__.py
         3. __main__.py
-    9. Representación de estructuras
+    10. Representación de estructuras
         1. Módulo collections
             1. namedtuple
             2. defaultdict
