@@ -17,7 +17,7 @@
     3. Colecciones
         1. Listas
         2. Tuplas
-            1. Desenrollado de tuplas/listas
+            1. Descomposición de tuplas/listas
         3. Conjuntos
         4. Diccionarios
         5. Iterador
@@ -26,7 +26,7 @@
             1. Operadores lógicos
         2. while
         3. for in
-            1. Desenrollado de elementos iteradores
+            1. Descomposición de elementos iteradores
     5. Funciones
         1. Funciones lambda
         2. Declaración de funciones
