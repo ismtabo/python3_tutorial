@@ -8,12 +8,35 @@ Para entrar en contacto con el intérprete, vamos a escribir la siguiente senten
 
 ```python
 "Hello World!"
-"Hello World!"
 ```
 
 Como se puede observar, al introducirlo en el intérprete y dar al intro, la salida del intérprete será la siguiente.
 
-```ipython
+```python
 >>> "Hello World!"
 "Hello World!"
 ```
+
+Esto se debe a que después de cada sentencia introducida, si esta devolviese algún valor, dicho valor se mostrará en la línea siguiente. Al igual que si utilizásemos la función para imprimir por entrada estándar `print`:
+
+```python
+>>> print("Hello World!")
+"Hello World!"
+```
+
+## Hello world en un fichero
+
+Este mismo código lo podemos escribir en un fichero con extensión `.py`:
+
+Contenido de `hello_world.py`:
+```python
+print("Hello World!")
+```
+
+Posteriormente para ejecutar dicho programa usaremos la siguiente sentencia en nuestro terminal:
+```
+$ python3 hello_world.py
+"Hello World!"
+```
+
+A los ficheros con extensión `.py` con lenguaje **Python**, se les llama **scripts**, al igual que los ficheros de otros lenguajes como **Bash**.
