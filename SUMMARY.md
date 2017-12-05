@@ -1,3 +1,6 @@
 # Summary
 
-* [Python, un lenguaje interpretado](python-lenguaje-interpretado.md)
+* [Introduction](README.md)
+* [El Zen de Python](python-lenguaje-interpretado.md)
+* [Primeros pasos con Python](primeros-pasos-con-python.md)
+
