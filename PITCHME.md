@@ -3,7 +3,7 @@
 
 ---
 
-# Qué vamos a ver
+### Qué vamos a ver
 
 - Un poco de Python, ¿qué es?
 - Los falsos mitos de Python
@@ -19,7 +19,7 @@
 
 ---
 
-# Un poco de Python, ¿qué es?
+### Un poco de Python, ¿qué es?
 
 - Es un lenguaje de programación de (muy) alto nivel
 - Es un lenguaje interpretado
@@ -30,14 +30,14 @@
 
 +++
 
-# Un poco de Python, ¿qué es? II
+### Un poco de Python, ¿qué es? II
 
 - Es multiplataforma
 - Open Source ([PSFL](http://es.wikipedia.org/wiki/Python_Software_Foundation_License))
 
 ---
 
-# Falsos mitos de Python
+### Falsos mitos de Python
 
 - Python es lento
     - Permite llamadas nativas a funciones de C/C++
@@ -47,7 +47,7 @@
 
 ---
 
-# Facilitándonos el trabajo - `Setuptools`
+### Facilitándonos el trabajo - `Setuptools`
 
 `Setuptools`, es una colección de mejoras para el módulo `disutils` de Python.
 - Por defecto, utiliza PyPI para buscar paquetes
@@ -56,7 +56,7 @@
 
 +++
 
-# Facilitándonos el trabajo - `Easyinstall`
+### Facilitándonos el trabajo - `Easyinstall`
 
 `easy_install`, es una herramienta que se basa en `Setuptools` para automáticamente encontrar y descargar desde Internet las dependencias, para instalarlas o actualizarlas, ya sea bajo demanda o cuando son requeridas como dependencias al instalar otra aplicación
 - Instalación en sistemas Debian
@@ -72,7 +72,7 @@
 
 +++
 
-# Facilitándonos el trabajo - `Python Package Index`
+### Facilitándonos el trabajo - `Python Package Index`
 
 `pip` es un sistema de gestión de paquetes que facilita la instalación y administración de paquetes de software escritos en Python. Estos paquetes pueden encontrarse en [Python Package Index](https://pypi.python.org/pypi).
 
@@ -88,7 +88,7 @@ Python 2.7.9 y posteriores (en la serie Python2), Python 3.4 y posteriores inclu
 
 +++
 
-# Facilitándonos el trabajo - `Virtualenv`
+### Facilitándonos el trabajo - `Virtualenv`
 
 `virtualenv` es una herramienta de desarrollo en Python escrita por Ian Bicking y usada para crear entornos aislados para Python, en los que es posible instalar paquetes sin interferir con otros virtualenvs ni con los paquetes de Python del sistema.
 
