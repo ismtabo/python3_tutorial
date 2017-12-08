@@ -13,6 +13,12 @@
     - La utilidad de las distintas colecciones: Listas, Tuplas, Diccionarios, Conjuntos
     - Control de flujo con condiciones y bucles
     - Definición de funciones y funciones _lambda_
+
++++
+
+### Qué vamos a ver II
+
+- Utilidades prácticas
     - List comprehension y generadores, un paso más allá
     - Entrada y salida por terminal y con ficheros
     - Excepciones
@@ -59,6 +65,11 @@
 ### Facilitándonos el trabajo - `Easyinstall`
 
 `easy_install`, es una herramienta que se basa en `Setuptools` para automáticamente encontrar y descargar desde Internet las dependencias, para instalarlas o actualizarlas, ya sea bajo demanda o cuando son requeridas como dependencias al instalar otra aplicación
+
++++
+
+### Facilitándonos el trabajo - `Easyinstall` II
+
 - Instalación en sistemas Debian
     `sudo apt-get install build-essential python-dev python-setuptools`
 - Ejemplos de uso
@@ -78,6 +89,10 @@
 
 Python 2.7.9 y posteriores (en la serie Python2), Python 3.4 y posteriores incluyen `pip` (`pip3` para Python3) por defecto.
 
++++
+
+### Facilitándonos el trabajo - `Python Package Index` II
+
 - Instalación en sistemas Debian
     `sudo apt-get install build-essential python-pip python3-pip`
 - Ejemplos de uso
@@ -91,6 +106,10 @@ Python 2.7.9 y posteriores (en la serie Python2), Python 3.4 y posteriores inclu
 ### Facilitándonos el trabajo - `Virtualenv`
 
 `virtualenv` es una herramienta de desarrollo en Python escrita por Ian Bicking y usada para crear entornos aislados para Python, en los que es posible instalar paquetes sin interferir con otros virtualenvs ni con los paquetes de Python del sistema.
+
++++
+
+### Facilitándonos el trabajo - `Virtualenv` II
 
 - Inslatación en sistemas Debian
     `sudo apt-get install build-essential virtualenv`
