@@ -76,10 +76,6 @@
     - `easy_install SQLObject`
     - `easy_install -f http://pythonpaste.org/package_index.html SQLObject`
     - `easy_install -i http://pypi.ejemplo.com/simple SQLObject (replica repositorio)`
-    - `easy_install http://ejemplo.com/ruta/a/MiPaquete-1.2.3.tgz`
-    - `easy_install ./Descargas/OtroPaquete-3.2.1-py2.7.egg`
-    - `easy_install "ZopeSkel==2.21.2“ (versión especifica)`
-    - `easy_install --upgrade PyProtocols`
 
 +++
 
