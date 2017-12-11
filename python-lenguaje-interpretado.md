@@ -1,6 +1,6 @@
 # El Zen de Python
 
-Hace tiempo Tim Peter escribió resumió los principios que busca la programación con este lenguaje, tales principios se resumen en 20 aforismos, de los cuales sólo 19 se han escrito:
+Hace tiempo Tim Peter resumió los principios que busca la programación con este lenguaje en 20 aforismos, de los cuales sólo 19 se han escrito:
 
 ```
 Beautiful is better than ugly.
