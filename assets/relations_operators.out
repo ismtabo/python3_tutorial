@@ -1,0 +1,18 @@
+>>> 5 == 7
+False
+>>> "rojo" != "verde"
+True
+>>> 8 < 12
+True
+>>> 12 > 7
+False
+>>> 12 <= 12
+True
+>>> 4 >= 5
+False
+>>> a = 1
+>>> b = a
+>>> a is b
+True
+>>> 10 in range(10)
+False
