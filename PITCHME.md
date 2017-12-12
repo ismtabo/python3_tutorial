@@ -148,12 +148,12 @@ Python 2.7.9 y posteriores (en la serie Python2), Python 3.4 y posteriores inclu
 @[5-6](`else` block)
 
 +++?code=./assets/while_structure.py&lang=python&title="Estructura de control de flujo iterativo: %60while%60"
-@[1-5](Bloque `while` con condición de salida)
-@[7-10](Bloque `while` infinito con sentencia `break`)
+@[1-6](Bloque `while` con condición de salida)
+@[8-11](Bloque `while` infinito con sentencia `break`)
 
 +++?code=./assets/for_structure.py&lang=python&title="Estructura de control de flujo iterativo: %60for%60"
-@[1-5](Bloque `for` recorriendo una lista)
-@[7-10](Bloque `for` recorriendo un rango)
+@[1-3](Bloque `for` recorriendo una lista)
+@[5-8](Bloque `for` recorriendo un rango)
 
 +++?code=./assets/for_special_generators.out&lang=python&title="Funciones especiales para generar listas"
 @[1-2](Función de rango: `range([start [, end [, step]]])`)
