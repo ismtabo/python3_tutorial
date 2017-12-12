@@ -1,6 +1,4 @@
----
-
-## Estructuras de control de flujo
+### Estructuras de control de flujo
 
 +++?code=assets/relations_operators.out&lang=python&title="Operadores relacionales (de comparaci%C3%B3n)"
 @[1-2](Igualdad: `==`)
