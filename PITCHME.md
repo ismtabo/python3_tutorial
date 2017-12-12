@@ -166,7 +166,7 @@ Python 2.7.9 y posteriores (en la serie Python2), Python 3.4 y posteriores inclu
 Las estructuras de control de flujo condicionales, se definen mediante el uso de tres palabras claves reservadas, del lenguaje: `if`(si), `elif`(sino, si) y `else` (sino).
 </small>
 
----?code=assets/if_elif_if.png&lang=python
+---?code=./assets/if_elif_if.png&lang=python
 @[1-2](`if` block)
 @[3-4](`elif` block)
 @[5-6](`else` block)
