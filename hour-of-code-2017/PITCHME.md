@@ -3,8 +3,8 @@
 
 ---
 
----?include=./introduction.md
+---?include=./md/introduction.md
 
----?include=./data_types.md
+---?include=./md/data_types.md
 
----?include=./flow_control.md
+---?include=./md/flow_control.md
