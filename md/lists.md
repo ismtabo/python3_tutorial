@@ -29,3 +29,12 @@
 @[1,16-17](También podemos extraer saltando elementos, como en este caso de dos en dos)
 @[1,18-19](Invertir el orden de la lista es tan fácil como esto)
 @[1,20-21](Y también podemos acceder de forma salteada y desde el final hasta el inicio)
+
++++?code=assets/list_other.py&lang=python&title="Accediendo a los elementos"
+@[1-3](Mediante `len` sabemos la longitud de la lista)
+@[1,4-5](Con `max` obtenemos el valor máximo almacenado en la lista)
+@[1,6-7](Y con `min` el valor mínimo)
+@[1,8-10](Mediante la función `sort` ordenamos la lista de forma ascendente ¿Sabrías ordenarla de forma descendente?)
+@[11-13](Con la función `count` podemos contar las apariciones de un elemento)
+@[11,14-15](Con la función `index` obtenemos el índice de la primera aparición del elemento especificado)
+@[1,16-17](Y también podemos indicar las posiciones entre las que buscar dicho valor)
