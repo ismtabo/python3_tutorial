@@ -127,34 +127,17 @@ Python 2.7.9 y posteriores (en la serie Python2), Python 3.4 y posteriores inclu
 
 ### Estructuras de control de flujo
 
-#### Operadores relacionales (de comparación)
++++?code=assets/relations_operators.out&lang=python&title="Operadores relacionales (de comparación)"
+@[1-2](Igualdad: `==`)
+@[3-4](Diferencia: `!=`)
+@[5-6](Menor que: `<`)
+@[7-8](Mayor que: `>`)
+@[9-10](Menor o igual que: `<=`)
+@[11-12](Mayor o igual que: `>=`)
+@[13-16](Igualdad de referencia: `is`)
+@[17-18](Pertenencia: `in`)
 
-| Símbolo | Significado       | Ejemplo             | Resultado |
-|---------|-------------------|---------------------|-----------|
-| `==`    | Igual que         | `5 == 7`            | `False`   |
-| `!=`    | Distinto que      | `"rojo" != "verde"` | `True`    |
-| `<`     | Menor que         | `8 < 12`            | `True`    |
-| `>`     | Mayor que         | `12 > 7`            | `False`   |
-| `<=`    | Menor o igual que | `12 <= 12`          | `True`    |
-| `>=`    | Mayor o igual que | `4 >= 5`            | `False`   |
-| `is`    | Misma referencia  | `1 is 1.0`          | `True`    |
-| `in`    | Dentro de         | `10 in range(10)`   | `False`   |
-
-+++
-
-### Estructuras de control de flujo
-
-#### Operadores lógicos
-
-| Operador           | Ejemplo              | Resultado*        |         |
-|--------------------|----------------------|-------------------|---------|
-| `and` (y)          | `5 == 7 and 7 < 12`  | `False and False` | `False` |
-|                    | `9 < 12 and 12 > 7`  | `True and True`   | `True`  |
-|                    | `9 < 12 and 12 > 15` | `True and False`  | `False` |
-| `or` (ó)           | `12 == 12 or 15 < 7` | `True or False`   | `True`  |
-|                    | `7 > 5 or 9 <12`     | `True or True`    | `True`  |
-| `^` (o excluyente) | `4 == 4 ^ 9 > 3`     | `True ^ True`     | `False` |
-|                    | `4 == 4 ^ 9 < 3`     | `True ^ False`    | `True`  |
++++?code=assets/logic_operators.out&lang=python&title="Operadores lógicos"
 
 +++ 
 
@@ -166,7 +149,7 @@ Python 2.7.9 y posteriores (en la serie Python2), Python 3.4 y posteriores inclu
 Las estructuras de control de flujo condicionales, se definen mediante el uso de tres palabras claves reservadas, del lenguaje: `if`(si), `elif`(sino, si) y `else` (sino).
 </small>
 
----?code=./assets/if_elif_if.py&lang=python
++++?code=./assets/if_elif_if.py&lang=python&title="Estructuras de control de flujo condicionales"
 @[1-2](`if` block)
 @[3-4](`elif` block)
 @[5-6](`else` block)
