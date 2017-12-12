@@ -127,7 +127,7 @@ Python 2.7.9 y posteriores (en la serie Python2), Python 3.4 y posteriores inclu
 
 ### Estructuras de control de flujo
 
-+++?code=assets/relations_operators.out&lang=python&title="Operadores relacionales (de comparación)"
++++?code=./assets/relations_operators.out&lang=python&title="Operadores relacionales (de comparación)"
 @[1-2](Igualdad: `==`)
 @[3-4](Diferencia: `!=`)
 @[5-6](Menor que: `<`)
@@ -137,7 +137,7 @@ Python 2.7.9 y posteriores (en la serie Python2), Python 3.4 y posteriores inclu
 @[13-16](Igualdad de referencia: `is`)
 @[17-18](Pertenencia: `in`)
 
-+++?code=assets/logic_operators.out&lang=python&title="Operadores lógicos"
++++?code=./assets/logic_operators.out&lang=python&title="Operadores lógicos"
 
 +++ 
 
