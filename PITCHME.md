@@ -125,7 +125,7 @@ Python 2.7.9 y posteriores (en la serie Python2), Python 3.4 y posteriores inclu
 
 ---
 
-# Estructuras de control de flujo
+## Estructuras de control de flujo
 
 +++?code=./assets/relations_operators.out&lang=python&title="Operadores relacionales (de comparaci%C3%B3n)"
 @[1-2](Igualdad: `==`)
