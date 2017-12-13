@@ -8,6 +8,8 @@
 {'c': 2, 'a': 0, 'b': 1, 'd': 3}
 >>> ( x**2 for x in range(10) if x % 2 == 0)
 <generator object <genexpr> at 0x7fba950c5f10>
+>>> tuple( x**2 for x in range(10) if x % 2 == 0)
+(0, 4, 16, 36, 64)
 >>> sum( x**2 for x in range(10) if x % 2 == 0)
 120
 >>> all( x%2 == 0 for x in [1, 2, 4, 6, 8] )
