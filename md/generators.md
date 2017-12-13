@@ -10,7 +10,7 @@
 
 +++?code=assets/iterators_common_use.py&lang=python&title="Uso habitual de iteradores"
 
-+++?code=assets/generator_yield.py&lang=python&title="Generadores%20%60yield%60"
++++?code=assets/generator_yield.out&lang=python&title="Generadores%20%60yield%60"
 @[2-10](Definición de función generadora)
 @[13](Asignación de función a una variable)
 @[14-33](El comportamiento es igual que el de un iterador)
