@@ -21,7 +21,7 @@ True
 >>> dic
 {'a': 1}
 >>> dic.update({'b': 2, 'c': 3})
->>> a
+>>> dic
 {'c': 3, 'b': 2, 'a': 1}
 >>> del dic['c']
 >>> dic
