@@ -1,9 +1,9 @@
 >>> miString = "soy UNA cadena"
->>> print miString.capitalize()
+>>> miString.capitalize()
 Soy una cadena
->>> print miString.lower()
+>>> miString.lower()
 soy una cadena
->>> print miString.upper()
+>>> miString.upper()
 SOY UNA CADENA
->>> print miString.swapcase()
+>>> miString.swapcase()
 SOY una CADENA
