@@ -1,0 +1,62 @@
+>>> raise ValueError
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError
+>>> raise ValueError('Own message')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: Own message
+>>>
+>>> try:
+...     int('a')
+... except Exception:
+...     'You failed'
+...
+'You failed'
+>>>
+>>> try:
+...     int('a')
+... except Exception as err:
+...     err
+...
+ValueError("invalid literal for int() with base 10: 'a'",)
+>>>
+>>> try:
+...     int('a')
+... except ValueError as err:
+...     'Value error'
+... except Exception as err:
+...     err
+...
+'Value error'
+>>>
+>>> try:
+...     l = [1,2,3,4]
+...     l[5]
+... except ValueError as err:
+...     'Value error'
+... except Exception as err:
+...     err
+...
+IndexError('list index out of range',)
+>>>
+>>> try:
+...     int('a')
+... except Exception as err:
+...     err
+... finally:
+...     'Always evaluated'
+...
+ValueError("invalid literal for int() with base 10: 'a'",)
+'Always evaluated'
+>>> 
+>>> try:
+...     int('0')
+... except Exception as err:
+...     err
+... else:
+...     'No errors'
+...
+0
+'No errors'
+>>>

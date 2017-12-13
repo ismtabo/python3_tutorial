@@ -1,0 +1,23 @@
+>>> file = open('sample.out', 'w')
+>>> file.write('Hola\n')
+5
+>>> file.seek(0)
+0
+>>> file.write('Hello\n')
+6
+>>> file.close()
+>>>
+>>> file = open('sample.out', 'r')
+>>> file.read()
+'Hello\n'
+>>> file.seek(0)
+0
+>>> file.readlines()
+['Hello\n']
+>>> file.close()
+>>>
+>>> with open('sample.out', 'r') as file:
+...     file.read()
+...
+'Hello\n'
+>>>

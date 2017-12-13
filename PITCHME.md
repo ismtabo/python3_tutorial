@@ -16,3 +16,7 @@
 ---?include=md/functions_procedures.md
 
 ---?include=md/generators.md
+
+---?include=md/io_files.md
+
+---?include=md/exceptions.md
