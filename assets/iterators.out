@@ -1,0 +1,39 @@
+>>> cities = ["Paris", "Berlin", "Hamburg", "Frankfurt", "London", "Vienna", "Amsterdam", "Den Haag"]
+>>> for location in cities:
+...     print("location: " + location)
+... 
+location: Paris
+location: Berlin
+location: Hamburg
+location: Frankfurt
+location: London
+location: Vienna
+location: Amsterdam
+location: Den Haag
+>>> expertises = ["Novice", "Beginner", "Intermediate", "Proficient", "Experienced", "Advanced"]
+>>> expertises_iterator = iter(expertises)
+>>> next(expertises_iterator)
+'Novice'
+>>> next(expertises_iterator)
+'Beginner'
+>>> next(expertises_iterator)
+'Intermediate'
+>>> next(expertises_iterator)
+'Proficient'
+>>> next(expertises_iterator)
+'Experienced'
+>>> next(expertises_iterator)
+'Advanced'
+>>> next(expertises_iterator)
+Traceback (most recent call last):
+  File "", line 1, in 
+StopIteration
+>>> expertises_iterator = iter(expertises)
+>>> next(expertises_iterator, None)
+'Novice'
+>>> ...
+>>> next(expertises_iterator, None)
+'Advanced'
+>>> next(expertises_iterator, None)
+None
+>>>
