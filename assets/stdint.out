@@ -1,0 +1,27 @@
+>>> input()
+Hola
+'Hola'
+>>> int(input())
+1
+1
+>>> float(input())
+a
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: could not convert string to float: 'a'
+>>> _input = input("Input with prompt: ")
+Input with prompt: 1
+>>> _input
+'1'
+>>>
+>>> import sys
+>>> for line in sys.stdin:
+...     print(line)
+...
+hola
+hola
+
+^CTraceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+KeyboardInterrupt
+>>>

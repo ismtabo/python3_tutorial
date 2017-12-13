@@ -1,0 +1,24 @@
+>>> print("Hello World")
+Hello World
+>>> print('a', 42, 3.14, True)
+a 42 3.14 True
+>>> print([1,2,3,4])
+[1, 2, 3, 4]
+>>> print(*[1,2,3,4])
+1 2 3 4
+>>> print(*[1,2,3,4], sep='\n')
+1
+2
+3
+4
+>>> print("Hello World", end='')
+Hello World>>>
+>>>
+>>> print("%d %.2f %s" % (42, 3.14159, 'a'))
+42 3.14 a
+>>> print("{1:.2f} {0} {2!r}".format(42, 3.14159, 'a'))
+3.14 42 'a'
+>>> import sys
+>>> print("ERROR", file=sys.stderr)
+ERROR
+>>>
