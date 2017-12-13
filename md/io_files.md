@@ -24,7 +24,8 @@
 +++
 #### Significado de modos de apertura
 
-```
+```python
+"""
 ========= ===============================================================
 Character Meaning
 --------- ---------------------------------------------------------------
@@ -37,4 +38,5 @@ Character Meaning
 '+'       open a disk file for updating (reading and writing)
 'U'       universal newline mode (deprecated)
 ========= ===============================================================
+"""
 ```
