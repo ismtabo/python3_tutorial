@@ -7,6 +7,9 @@
 
 ---?include=md/flow_control.md
 
+
+---?include=md/dictionaries.md
+
 ---?include=md/functions_procedures.md
 
 ---?include=md/lists.md
