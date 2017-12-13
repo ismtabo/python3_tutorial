@@ -7,6 +7,16 @@
 
 ---?include=md/flow_control.md
 
+---?include=md/strings.md
+
+---?include=md/dictionaries.md
+
+---?include=md/lists.md
+
+---?include=md/functions_procedures.md
+
+---?include=md/generators.md
+
 ---?include=md/io_files.md
 
 ---?include=md/exceptions.md
