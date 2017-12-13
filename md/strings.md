@@ -28,4 +28,10 @@
 @[4-5](Sustituir partes de la cadena)
 @[6-7](Y eliminar caracteres al principio y final de la cadena)
 @[8-9](Tambien podemos elminar por uno de los dos sitios)
-@[10-11](Tambien podemos elminar por uno de los dos sitios)
+@[10-11](pero solo en el caso de que ese caracter sea el que indicamos)
+
++++?code=assets/union_division_methods.py&lang=python&title="¿Como manipulamos estos Strings?"
+@[1-4](Con join la cadena se separa por cada uno de los elementos de un iterable)
+@[5-7](Con partition obtenemos una tupla de tres elementos donde el primero es el contenido de la cadena previo al separador, el segundo, el separador mismo y el tercero, el contenido de la cadena posterior al separador)
+@[8-9](Con split sin embargo una lista con todos elementos encontrados al dividir la cadena por un separador)
+@[10-12](finalmente con splitlines obtendremos una lista donde cada elemento es una fracción de la cadena divida en líneas)
