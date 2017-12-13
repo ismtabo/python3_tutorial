@@ -8,3 +8,9 @@
 ---?include=md/flow_control.md
 
 ---?include=md/strings.md
+
+---?include=md/dictionaries.md
+
+---?include=md/lists.md
+
+---?include=md/functions_procedures.md
