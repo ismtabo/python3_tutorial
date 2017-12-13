@@ -1,0 +1,32 @@
+>>> dict([('a', 1), ('b', 2)])
+{'b': 2, 'a': 1}
+>>> dic = {'a': 1, 'b', 2}
+>>> dic
+{'b': 2, 'a': 1}
+>>> dic['a']
+1
+>>> dic['b'] = 3
+>>> dic
+{'b': 3, 'a': 1}
+>>> dic['c']
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+KeyError: 'c'
+>>> 'c' in dic
+True
+>>> dic.get('c', 0)
+0
+>>> dic.pop('b', 0)
+3
+>>> dic
+{'a': 1}
+>>> dic.update({'b': 2, 'c': 3})
+>>> a
+{'c': 3, 'b': 2, 'a': 1}
+>>> del dic['c']
+>>> dic
+{'b': 2, 'a': 1}
+>>> dic.clear()
+>>> dic
+{}
+>>>
