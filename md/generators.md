@@ -6,7 +6,7 @@
 @[15-26](Avance del iterador sobre los elementos de la lista: `next(iterator [, default])`)
 @[27-30](Al agotar los elementos de la lista salta la excepción `StopIteration`)
 @[31](Es necesario reinicilizar el iterador para volver obtener los elementos de la lista)
-@[32-37](Al utilizar un defecto, no salta `StopIteration`)
+@[32-38](Al utilizar un defecto, no salta `StopIteration`)
 
 +++?code=assets/iterators_common_use.py&lang=python&title="Uso habitual de iteradores"
 
