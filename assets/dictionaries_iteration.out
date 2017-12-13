@@ -1,0 +1,14 @@
+>>> dic = {'a': 1, 'b', 2}
+>>> len(dic)
+2
+>>> dic.keys()
+dict_keys(['b', 'a'])
+>>> dic.values()
+dict_values([2, 1])
+>>> dic.items()
+dict_items([('b', 2), ('a', 1)])
+>>> for k, v in dic.items():
+    print(k, v)
+b 2
+a 1
+>>>
