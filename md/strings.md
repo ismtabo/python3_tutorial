@@ -20,5 +20,12 @@
 @[17](Si es todo minusculas...)
 @[18-19](¡Podemos saberlo!)
 @[20-21](Pero por supuesto no puede ser lo contrario a la vez)
-@[22](¡Para qué sirve esto?)
+@[22](¿Para qué sirve esto?)
 @[23-24](Efectivamente tenemos solo espacios)
+
++++?code=assets/substitution_methods.py&lang=python&title="¿Como manipulamos estos Strings?"
+@[2-3](Se puede dar formato a la cadena)
+@[4-5](Sustituir partes de la cadena)
+@[6-7](Y eliminar caracteres al principio y final de la cadena)
+@[8-9](Tambien podemos elminar por uno de los dos sitios)
+@[10-11](Tambien podemos elminar por uno de los dos sitios)
