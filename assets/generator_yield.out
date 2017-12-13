@@ -1,0 +1,33 @@
+>>>""" Contenido de city_generator.py
+def city_generator():
+    yield("London")
+    yield("Hamburg")
+    yield("Konstanz")
+    yield("Amsterdam")
+    yield("Berlin")
+    yield("Zurich")
+    yield("Schaffhausen")
+    yield("Stuttgart")
+"""
+>>> from city_generator import city_generator
+>>> city = city_generator()
+>>> print(next(city))
+London
+>>> print(next(city))
+Hamburg
+>>> print(next(city))
+Konstanz
+>>> print(next(city))
+Amsterdam
+>>> print(next(city))
+Berlin
+>>> print(next(city))
+Zurich
+>>> print(next(city))
+Schaffhausen
+>>> print(next(city))
+Stuttgart
+>>> print(next(x))
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+StopIteration
