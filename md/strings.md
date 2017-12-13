@@ -6,3 +6,8 @@
 @[4-5](lower devuleve una copia de la cadena en minusculas)
 @[6-7](upper devuelve una copia de la cadena en mayusculas)
 @[8-9](swapcase devuelve una copia de la cadena convertidas las mayúsculas en minúsculas y viceversa)
+
++++?code=assets/search_methods.py&lang=python&title="Busqueda en los Strings"
+@[1](Creamos nuestro String)
+@[2-3](podemos contar la cantidad de apariciones de una subcadena)
+@[4-5](O buscar donde se encuentra una determinada subcadena)
